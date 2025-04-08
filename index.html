@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layered Image Viewer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="image-container">
+      <!-- Background image -->
+      <img src="images/Existing.png" alt="Background" class="background" />
+
+      <!-- Overlays -->
+      <img src="images/Marker.png" id="marker" class="marker" />
+      <img src="" id="path" class="marker" />
+
+      <!-- Control Panel -->
+      <div class="control-panel">
+        <div id="group-left" class="group"></div>
+        <div id="group-center" class="group"></div>
+        <div id="group-right" class="group"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
