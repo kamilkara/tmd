@@ -93,15 +93,3 @@ proposedOptions.forEach(opt => {
   };
   groupRight.appendChild(btn);
 });
-
-
-
-// Logo overlay stays at fixed top right
-const logoOverlay = document.createElement('img');
-logoOverlay.src = 'images/logo.png';
-logoOverlay.id = 'logo';
-logoOverlay.classList.add('static-overlay');
-document.body.appendChild(logoOverlay);
-
-let currentBackground = 'images/Existing.png';
-setBackground(currentBackground);
