@@ -42,7 +42,7 @@ groupLeft.appendChild(demolitionBtn);
 
 // Marker overlay toggle (shared marker for both views)
 const markerBtn = document.createElement('button');
-markerBtn.innerText = 'Show Marker';
+markerBtn.innerText = 'Flood Line';
 markerBtn.dataset.marker = 'marker';
 markerBtn.classList.add('toggle-button');
 markerBtn.onclick = () => {
